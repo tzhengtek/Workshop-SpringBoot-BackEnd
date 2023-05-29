@@ -15,6 +15,7 @@ You have to implement a DTO class for a UserCreation (search how is it configure
 It will be defined by : an username, a password and an email.
 
 ## Exercice 2
+Documentation : https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-usagenotes-connect-drivermanager.html
 Create a Service folder that will contain all of your services
 Add a UserService that will add DTO to your database by creating a method AddUser that will take your UserCreationDTO as parameter.
 
