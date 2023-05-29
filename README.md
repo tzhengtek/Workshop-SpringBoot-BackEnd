@@ -9,6 +9,7 @@ For every Controller you will create, use Postman to test if everything is funct
 Before starting the workshop, do not forget to launch the .sql file that will setup the database for you ! 
 
 ## Exercice 1
+Documentation : https://www.baeldung.com/java-dto-pattern
 Create a DTO folder that will contain all of your 'Data Transfer Object'
 You have to implement a DTO class for a UserCreation (search how is it configure) that will be used to communicate between the front and the back-end.
 It will be defined by : an username, a password and an email.
