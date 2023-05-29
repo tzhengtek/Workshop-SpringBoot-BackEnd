@@ -20,17 +20,20 @@ Before starting the workshop, do not forget to launch the .sql file that will se
 
 ## Exercice 1
 Documentation : https://www.baeldung.com/java-dto-pattern
+
 Create a DTO folder that will contain all of your 'Data Transfer Object'
 You have to implement a DTO class for a UserCreation (search how is it configure) that will be used to communicate between the front and the back-end.
 It will be defined by : an username, a password and an email.
 
 ## Exercice 2
 Documentation : https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-usagenotes-connect-drivermanager.html
+
 Create a Service folder that will contain all of your services
 Add a UserService that will add DTO to your database by creating a method AddUser that will take your UserCreationDTO as parameter.
 
 ## Exercice 3
 Documentation : https://www.geeksforgeeks.org/spring-controller-annotation-with-example/
+
 Create a Controller folder that will contain all of your controllers calls.
 In the UserController file, you have to create a Post route '/user' that will call the method in the corresponding service (User here)
 
