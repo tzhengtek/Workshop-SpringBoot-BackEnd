@@ -6,6 +6,8 @@ You will have the possibilites to login, update, delete...
 All of creation of folder will be in the path 'src/main/java/fr/workshop/TodoBackend'
 For every Controller you will create, use Postman to test if everything is functionnal !
 
+Before starting the workshop, do not forget to launch the .sql file that will setup the database for you ! 
+
 ## Exercice 1
 Create a DTO folder that will contain all of your 'Data Transfer Object'
 You have to implement a DTO class for a UserCreation (search how is it configure) that will be used to communicate between the front and the back-end.
@@ -16,6 +18,7 @@ Create a Service folder that will contain all of your services
 Add a UserService that will add DTO to your database by creating a method AddUser that will take your UserCreationDTO as parameter.
 
 ## Exercice 3
+Documentation : https://www.geeksforgeeks.org/spring-controller-annotation-with-example/
 Create a Controller folder that will contain all of your controllers calls.
 In the UserController file, you have to create a Post route '/user' that will call the method in the corresponding service (User here)
 
