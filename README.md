@@ -3,6 +3,16 @@ This is an introduction to SpringBoot to launch a back-end server
 The goal of this workshop is to configure a simple back-end server that will create an user to a database and retrieve some todos.
 You will have the possibilites to login, update, delete...
 
+Prerequisites:
+- Install jdk-17
+- Install Maven
+- Install MySql
+
+To launch SpringBoot, use the command
+```
+mvn spring-boot:run
+```
+
 All of creation of folder will be in the path 'src/main/java/fr/workshop/TodoBackend'
 For every Controller you will create, use Postman to test if everything is functionnal !
 
